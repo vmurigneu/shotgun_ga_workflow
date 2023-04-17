@@ -24,6 +24,7 @@ Shotgun metagenomics Galaxy Australia Workflows DRAFT
 2. Create a dataset collection containing the fastq files. 
 
 The goal of a collection is to process all the samples at once.  
+
 ![](./creating_list.pdf)
 Figure 1. Creating a list (collection). \
 A. Click the checkbox icon. This will reveal checkboxes to the left of all datasets in the history.  
@@ -35,5 +36,9 @@ F. A collection named "patients" is now added to the history and original datase
 G. Clicking on collection reveals its content.
 
 
+---
 
+# Acknowledgements/citations/credits
+
+The workflow implemented here is heavily influenced by the [Analyses of metagenomics data - The global picture tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html#shotgun-metagenomics-data), section Shotgun metagenomics data.
 

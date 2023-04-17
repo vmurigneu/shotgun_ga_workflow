@@ -4,9 +4,7 @@ Shotgun metagenomics Galaxy Australia Workflows DRAFT
   - [Analysis overview](#analysis-overview)
   - [Example output](#example-output)
   - [User guide](#user-guide)
-      + [Running a single sample workflow](#running-a-single-sample-workflow)
       + [Running a multi sample experiment](#running-a-multi-sample-experiment)
-      + [Next steps](#next-steps)
   - [Background and Tutorials](#background-and-tutorials)
   - [Licence(s)](#licences)
   - [Acknowledgements/citations/credits](#acknowledgementscitationscredits)
@@ -49,16 +47,15 @@ Shotgun metagenomics workflow for collection: [link](https://usegalaxy.org.au/u/
 
 When run in full, the workflow produces the following outputs:
 
-Output Dataset: Krona pie plot (MetaPhIAn2 taxonomy abundance)
-Output Dataset: Merged MetaPhIAn2 taxonomy abundance table with sample ID
-Output Dataset: Merged table for HUMAnN2 gene families abundance
-Output Dataset: Merged and normalised table for HUMAnN2 gene families abundance
-Output Dataset: Merged, regrouped and normalised table for HUMAnN2 gene families abundance
-Output Dataset: Merged table for HUMAnN2 Pathways and their abundance
-Output Dataset: Merged table for HUMAnN2 Pathways and their coverage
-
-Output Dataset Collection: MetaPhIAn2 SAM file
-Output Dataset Collection: MetaPhIAn2 biom file
+* Output Dataset: Krona pie plot (MetaPhIAn2 taxonomy abundance)
+* Output Dataset: Merged MetaPhIAn2 taxonomy abundance table with sample ID
+* Output Dataset: Merged table for HUMAnN2 gene families abundance
+* Output Dataset: Merged and normalised table for HUMAnN2 gene families abundance
+* Output Dataset: Merged, regrouped and normalised table for HUMAnN2 gene families abundance
+* Output Dataset: Merged table for HUMAnN2 Pathways and their abundance
+* Output Dataset: Merged table for HUMAnN2 Pathways and their coverage
+* Output Dataset Collection: MetaPhIAn2 SAM file
+* Output Dataset Collection: MetaPhIAn2 biom file
 
 ---
 
@@ -73,7 +70,8 @@ The goal of a collection is to process all the samples at once.
 
 <p align="center"><img src="/images/creating_list.pdf" width="75%"></p>
 
-Figure 1. Creating a list (collection).  
+Figure 1. Creating a list (collection). 
+
 A. Click the checkbox icon. This will reveal checkboxes to the left of all datasets in the history.  
 B. In this case we want to select all datasets, so press "All" button (alternatively datasets can be filtered as shown here). This will put a check mark into all checkboxes.  
 C. Click "For all selected..." button. This will reveal a dropdown.  

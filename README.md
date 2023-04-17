@@ -15,7 +15,7 @@ Shotgun metagenomics Galaxy Australia Workflows DRAFT
 
 # Analysis overview
 
-![diagram](/images/overview_shotgun.png)
+<p align="center"><img src="/images/overview_shotgun.png" alt="Logo" width="45%"></p>
 
 ## 1. Extraction of taxonomic information ([MetaPhlAn2](https://huttenhower.sph.harvard.edu/metaphlan2/))
 

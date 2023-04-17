@@ -60,32 +60,6 @@ Output Dataset: Merged table for HUMAnN2 Pathways and their coverage
 Output Dataset Collection: MetaPhIAn2 SAM file
 Output Dataset Collection: MetaPhIAn2 biom file
 
-## 1. Extraction of taxonomic information ([MetaPhlAn2](https://huttenhower.sph.harvard.edu/metaphlan2/))
-
-Assignation of taxonomy on the whole sequences using databases with marker genes. MetaPhlAn2 is using a database of ~1M unique clade-specific marker genes (not only the rRNA genes) identified from ~17,000 reference (bacterial, archeal, viral and eukaryotic) genomes.
-
-MetaPhlAn2 generates 3 files:
-
-* A tabular file with the community structure. Each line contains a taxa and its relative abundance found for our sample.
-
-* A BIOM file with the same information as the previous file but in BIOM format
-
-* A SAM file with the results of the mapping of the sequences on the reference database
-
-Visualisation of results with Krona plots.
-
-## 2. Extraction of functional information ([HUMAnN2](https://huttenhower.sph.harvard.edu/humann2/))
-
-In the shotgun data, we have access to the gene sequences from the full genome. We use that to identify the genes, associate them with a function, build pathways, etc., to investigate the functional part of the community.
-
-HUMAnN2 generates 3 files:
-
-* A file with the abundance of gene families. Gene family abundance is reported in RPK (reads per kilobase) units to normalize for gene length. It reflects the relative gene (or transcript) copy number in the community. The RPKs of reads that map to gene families that lack UniRef90 IDs are captured as UniRef90_unknown, and unmapped read abundances as UNMAPPED. The “UNMAPPED” value is the total number of reads which remain unmapped after both alignment steps (nucleotide and translated search). Since other gene features in the table are quantified in RPK units, “UNMAPPED” can be interpreted as a single unknown gene of length 1 kilobase recruiting all reads that failed to map to known sequences.
-
-* A file with the coverage of pathways. Pathway coverage provides an alternative description of the presence (1) and absence (0) of pathways in a community, independent of their quantitative abundance.
-
-* A file with the abundance of pathways
-
 ---
 
 # User guide
@@ -98,7 +72,7 @@ HUMAnN2 generates 3 files:
 
 The goal of a collection is to process all the samples at once.  
 
-![](./creating_list.pdf)
+![](/images/creating_list.pdf)
 Figure 1. Creating a list (collection). \
 A. Click the checkbox icon. This will reveal checkboxes to the left of all datasets in the history.  
 B. In this case we want to select all datasets, so press "All" button (alternatively datasets can be filtered as shown here). This will put a check mark into all checkboxes.  

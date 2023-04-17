@@ -15,7 +15,9 @@ Shotgun metagenomics Galaxy Australia Workflows DRAFT
 
 # Example output
  
-When run in full, the workflow produces the following main outputs
+Shotgun metagenomics workflow for collection: [link](https://usegalaxy.org.au/u/valentine_murigneux/w/shotgun-metagenomics-ga-workflow-for-collection)   
+
+When run in full, the workflow produces the following main outputs. 
 
 ## 1. Extraction of taxonomic information ([MetaPhlAn2](https://huttenhower.sph.harvard.edu/metaphlan2/))
 

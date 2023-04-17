@@ -65,15 +65,14 @@ Output Dataset Collection: MetaPhIAn2 biom file
 # User guide
 ## Running a multi sample experiment
 
-
 1. Upload the raw datasets (fastq files) in a Galaxy history
 
 2. Create a dataset collection containing the fastq files. 
 
 The goal of a collection is to process all the samples at once.  
 
-![](/images/creating_list.pdf)
-Figure 1. Creating a list (collection). \
+![](https://galaxyproject.org/tutorials/collections/creating_list.pdf | width=100) 
+Figure 1. Creating a list (collection).  
 A. Click the checkbox icon. This will reveal checkboxes to the left of all datasets in the history.  
 B. In this case we want to select all datasets, so press "All" button (alternatively datasets can be filtered as shown here). This will put a check mark into all checkboxes.  
 C. Click "For all selected..." button. This will reveal a dropdown.  

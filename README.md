@@ -71,9 +71,8 @@ Output Dataset Collection: MetaPhIAn2 biom file
 
 The goal of a collection is to process all the samples at once.  
 
-<p align="center"><img src="/images/creating_list.pdf" alt="Logo" width="45%"></p>
+<p align="center"><img src="/images/creating_list.pdf" width="75%"></p>
 
-https://galaxyproject.org/tutorials/collections/creating_list.pdf
 Figure 1. Creating a list (collection).  
 A. Click the checkbox icon. This will reveal checkboxes to the left of all datasets in the history.  
 B. In this case we want to select all datasets, so press "All" button (alternatively datasets can be filtered as shown here). This will put a check mark into all checkboxes.  

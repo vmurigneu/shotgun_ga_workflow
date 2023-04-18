@@ -10,6 +10,7 @@ Shotgun metagenomics Galaxy Australia Workflows DRAFT
   - [Acknowledgements/citations/credits](#acknowledgementscitationscredits)
 
 ---
+This document describes how to use the shotgun metagenomics workflow on Galaxy Australia.
 
 # Analysis overview
 
@@ -89,6 +90,16 @@ G. Clicking on collection reveals its content.
 <p align="center"><img src="/images/run_workflow.png"></p>
 
 <p align="center"><img src="/images/run_workflow_collection.png" width="100%"></p>
+
+---
+
+# Background and Tutorials 
+
+
+
+---
+
+# License(s)
 
 ---
 

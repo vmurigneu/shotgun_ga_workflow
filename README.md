@@ -70,9 +70,9 @@ The workflow will take one fastq file per sample as input.
 * If the dataset are single-end reads, include all the files in the collection
 * If the dataset are paired-end reads, only include the forward reads (R1) for each sample
 
-<p align="center"><img src="/images/create_collection.png" width="75%"></p>
+<p align="center"><img src="/images/create_collection.png" width="95%"></p>
 
-Figure 1. Creating a list (collection). 
+Figure 1. Creating a collection. 
 
 A. Click the checkbox icon. This will reveal checkboxes to the left of all datasets in the history.  
 B. In this case we want to select all datasets, so press "Select All" button (alternatively datasets can be filtered as shown here). This will put a check mark into all checkboxes.  

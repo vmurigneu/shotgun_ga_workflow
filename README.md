@@ -44,6 +44,7 @@ HUMAnN2 generates 3 files:
 
 # Example output
  
+https://usegalaxy.org.au/u/valentine_murigneux/h/shotgun-workflow-on-forward-reads-for-15-samples 
 Shotgun metagenomics workflow for collection: [link](https://usegalaxy.org.au/u/valentine_murigneux/w/shotgun-metagenomics-ga-workflow-for-collection)   
 
 When run in full, the workflow produces the following outputs:
@@ -55,8 +56,8 @@ When run in full, the workflow produces the following outputs:
 * Output Dataset: Merged, regrouped and normalised table for HUMAnN2 gene families abundance
 * Output Dataset: Merged table for HUMAnN2 Pathways and their abundance
 * Output Dataset: Merged table for HUMAnN2 Pathways and their coverage
-* Output Dataset Collection: MetaPhIAn2 SAM file
-* Output Dataset Collection: MetaPhIAn2 biom file
+* Output Dataset Collection: MetaPhIAn2 SAM file (one file per sample)
+* Output Dataset Collection: MetaPhIAn2 biom file (one file per sample)
 
 ---
 
@@ -80,7 +81,7 @@ A. Click the checkbox icon. This will reveal checkboxes to the left of all datas
 B. In this case we want to select all datasets, so press "Select All" button (alternatively datasets can be filtered as shown here). This will put a check mark into all checkboxes.  
 C. Click "For all selected..." button. This will reveal a dropdown.  
 D. Since this is not paired-end (or mate-pair) data we will choose to "Build Dataset List". This will open a dataset collection creator interface.  
-E. Within the dataset collection creator interface, select the fastq files and use the "Name" box to name the collection. "Hide original elements" checkbox ensures that upon creating the collection the original datasets will be hidden from the history as shown in the next figure. Click "Create collection".  
+E. Within the dataset collection creator interface, use the "Name" box to name the collection. "Hide original elements" checkbox ensures that upon creating the collection the original datasets will be hidden from the history as shown in the next figure. Click "Create collection".  
 F. A collection named "10 samples" is now added to the history and original datasets are hidden, so that the history only has one item.  
 G. Clicking on collection reveals its content.
 

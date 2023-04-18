@@ -64,12 +64,11 @@ When run in full, the workflow produces the following outputs:
 
 1. Upload the raw datasets (fastq files) in a Galaxy history
 
-2. Create a dataset collection containing the fastq files  
+2. Create a dataset collection containing the fastq files. The goal of a collection is to process all the samples at once.  
+
 The workflow will take one fastq file per sample as input.     
 * If the dataset are single-end reads, include all the files in the collection
 * If the dataset are paired-end reads, only include the forward reads (R1) for each sample
-
-The goal of a collection is to process all the samples at once.  
 
 <p align="center"><img src="/images/creating_list.pdf" width="75%"></p>
 

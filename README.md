@@ -84,7 +84,7 @@ G. Clicking on collection reveals its content.
 
 3. Run the shotgun workflow. 
   Search for the shotgun metagenomics workflow under 'workflow' and run it. 
-<p align="center"><img src="/images/run_workflow.png" width="100%"></p>
+<p align="center"><img src="/images/run_workflow.png"></p>
 
 <p align="center"><img src="/images/run_workflow_collection.png" width="100%"></p>
 

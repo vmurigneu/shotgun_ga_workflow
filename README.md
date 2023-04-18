@@ -82,6 +82,9 @@ E. Within the dataset collection creator interface use the "Name" box to name th
 F. A collection named "patients" is now added to the history and original datasets are hidden, so that the history only has one item.  
 G. Clicking on collection reveals its content.
 
+3. Run the shotgun workflow. 
+  Search for the scRNAseq Single sample workflow under 'workflow' and run it. 
+<p align="center"><img src="/images/run_workflow.png" width="75%"></p>
 
 
 

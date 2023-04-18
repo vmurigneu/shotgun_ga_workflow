@@ -83,10 +83,10 @@ F. A collection named "patients" is now added to the history and original datase
 G. Clicking on collection reveals its content.
 
 3. Run the shotgun workflow. 
-  Search for the scRNAseq Single sample workflow under 'workflow' and run it. 
+  Search for the shotgun metagenomics workflow under 'workflow' and run it. 
 <p align="center"><img src="/images/run_workflow.png" width="75%"></p>
 
-
+<p align="center"><img src="/images/run_workflow_collection.png" width="75%"></p>
 
 ---
 

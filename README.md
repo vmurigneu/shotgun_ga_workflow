@@ -70,7 +70,7 @@ The workflow will take one fastq file per sample as input.
 * If the dataset are single-end reads, include all the files in the collection
 * If the dataset are paired-end reads, only include the forward reads (R1) for each sample
 
-<p align="center"><img src="/images/creating_list.pdf" width="75%"></p>
+<p align="center"><img src="/images/create_collection.png" width="75%"></p>
 
 Figure 1. Creating a list (collection). 
 

@@ -44,8 +44,6 @@ HUMAnN2 generates 3 files:
 
 # Example output
  
-https://usegalaxy.org.au/u/valentine_murigneux/h/shotgun-workflow-on-forward-reads-for-15-samples 
-
 When run in full, the workflow produces the following outputs:
 
 * Output Dataset: Krona pie plot (MetaPhIAn2 taxonomy abundance)
@@ -57,6 +55,11 @@ When run in full, the workflow produces the following outputs:
 * Output Dataset: Merged table for HUMAnN2 Pathways and their coverage
 * Output Dataset Collection: MetaPhIAn2 SAM file (one file per sample)
 * Output Dataset Collection: MetaPhIAn2 biom file (one file per sample)
+
+This is an example of Galaxy history containing the results 
+https://usegalaxy.org.au/u/valentine_murigneux/h/shotgun-workflow-on-forward-reads-for-15-samples 
+and the workflow report:
+https://usegalaxy.org.au/workflows/invocations/report?id=5489112cf4c46e35
 
 ---
 

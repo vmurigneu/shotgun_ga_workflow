@@ -77,7 +77,7 @@ The workflow will take one fastq file per sample as input.
 
 Figure: Creating a collection
 
-<p align="center"><img src="/images/create_collection.png" width="95%"></p>
+<p align="center"><img src="/images/create_collection.png" width="99%"></p>
 
 A. Click the checkbox icon. This will reveal checkboxes to the left of all datasets in the history.  
 B. In this case we want to select all datasets, so press "Select All" button (alternatively datasets can be filtered). This will put a check mark into all checkboxes.  

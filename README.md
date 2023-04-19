@@ -45,7 +45,6 @@ HUMAnN2 generates 3 files:
 # Example output
  
 https://usegalaxy.org.au/u/valentine_murigneux/h/shotgun-workflow-on-forward-reads-for-15-samples 
-Shotgun metagenomics workflow for collection: [link](https://usegalaxy.org.au/u/valentine_murigneux/w/shotgun-metagenomics-ga-workflow-for-collection)   
 
 When run in full, the workflow produces the following outputs:
 
@@ -91,6 +90,8 @@ G. Clicking on collection reveals its content.
 <p align="center"><img src="/images/run_workflow.png"></p>
 
 <p align="center"><img src="/images/run_workflow_collection.png" width="100%"></p>
+
+Link to the shotgun metagenomics workflow for collection: [link](https://usegalaxy.org.au/u/valentine_murigneux/w/shotgun-metagenomics-ga-workflow-for-collection)   
 
 ---
 

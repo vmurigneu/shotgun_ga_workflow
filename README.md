@@ -89,7 +89,7 @@ G. Clicking on collection reveals its content.
 
 ### 3. Run the shotgun workflow
 
-  Search for the shotgun metagenomics workflow under 'workflow' and run it. 
+  Search for the shotgun metagenomics workflow under "workflow" and run it. The "input fastq collection" should be the collection you just created ("10 samples"). 
 <p align="center"><img src="/images/run_workflow.png"></p>
 
 <p align="center"><img src="/images/run_workflow_collection.png" width="100%"></p>

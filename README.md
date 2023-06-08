@@ -101,7 +101,7 @@ G. Clicking on collection reveals its content.
 
 <p align="center"><img src="/images/run_workflow_collection.png" width="100%"></p>
 
-Link to the shotgun metagenomics workflow for collection: [link](https://usegalaxy.org.au/u/valentine_murigneux/w/shotgun-metagenomics-ga-workflow-for-collection)   
+Link to the shotgun metagenomics workflow for collection: [link](https://usegalaxy.org.au/u/valentine_murigneux/w/analyses-of-shotgun-metagenomics-data-for-collection-with-subworkflow)   
 
 ---
 

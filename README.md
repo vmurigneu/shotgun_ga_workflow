@@ -58,8 +58,8 @@ When run in full, the workflow produces the following outputs:
 * Output Dataset: Merged table for HUMAnN2 gene families abundance
 * Output Dataset: Merged and normalised table for HUMAnN2 gene families abundance
 * Output Dataset: Merged, regrouped and normalised table for HUMAnN2 gene families abundance
-* Output Dataset: Merged table for HUMAnN2 Pathways and their abundance
-* Output Dataset: Merged table for HUMAnN2 Pathways and their coverage
+* Output Dataset: Merged and normalised table for HUMAnN2 Pathways abundance
+* Output Dataset: Merged table for HUMAnN2 Pathways coverage
 * Output Dataset Collection: MetaPhIAn2 SAM file (one file per sample)
 * Output Dataset Collection: MetaPhIAn2 biom file (one file per sample)
 

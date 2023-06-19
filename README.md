@@ -96,7 +96,7 @@ G. Clicking on collection reveals its content.
 
 ### 3. Run the shotgun workflow
 
-  Search for the shotgun metagenomics workflow under "workflow" and run it. The "input fastq collection" should be the collection you just created ("10 samples"). 
+  Search for the shotgun metagenomics workflow under "workflow" and run it. The workflow is called "Analyses of shotgun metagenomics data (for collection) with subworkflow". The "input fastq collection" should be the collection you just created ("10 samples"). 
 <p align="center"><img src="/images/run_workflow.png"></p>
 
 <p align="center"><img src="/images/run_workflow_collection.png" width="100%"></p>
@@ -114,9 +114,8 @@ The main output files are located under "Workflow Outputs". You can download eac
 * Output Dataset: HUMAnN2 merged pathways coverage
 * Output Dataset: HUMAnN2 merged and normalised pathways abundance
 * Output Dataset: HUMAnN2 merged and normalised gene families abundance
-* Output Dataset: HUMAnN2 regrouped, merged and normalised gene families abundance
-
-
+* Output Dataset: HUMAnN2 regrouped, merged and normalised gene families abundance  
+The "Output Collections" items contained the output file for each samples separately.  
 
 ---
 

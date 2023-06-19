@@ -105,7 +105,7 @@ Link to the shotgun metagenomics workflow for collection: [link](https://usegala
 
 ### 4. Once the workflow has completed, open the report
 A report will be automatically generated for each invocation of the workflow. The report is located under the menu "User" -> "Workflow Invocations".  
-Then scroll down to the name of the workflow: "Analyses of shotgun metagenomics data (for collection) with subworkflow"
+Then scroll down to the name of the workflow: "Analyses of shotgun metagenomics data (for collection) with subworkflow".  
 Right Click "View Report" -> Open in a new tab   
 The main output files are located under "Workflow Outputs". You can download each dataset by clicking on the icon "Download Dataset" on the top right corner.  
 * Output Dataset: Krona pie plot (MetaPhIAn2 taxonomy abundance)
@@ -115,7 +115,8 @@ The main output files are located under "Workflow Outputs". You can download eac
 * Output Dataset: HUMAnN2 merged and normalised pathways abundance
 * Output Dataset: HUMAnN2 merged and normalised gene families abundance
 * Output Dataset: HUMAnN2 regrouped, merged and normalised gene families abundance  
-The "Output Collections" items contained the output file for each samples separately.  
+
+The "Output Collections" items contain the output file for each sample separately.  
 
 ---
 

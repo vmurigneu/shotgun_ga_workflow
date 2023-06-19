@@ -60,8 +60,6 @@ When run in full, the workflow produces the following outputs:
 * Output Dataset: Merged, regrouped and normalised table for HUMAnN2 gene families abundance
 * Output Dataset: Merged and normalised table for HUMAnN2 Pathways abundance
 * Output Dataset: Merged table for HUMAnN2 Pathways coverage
-* Output Dataset Collection: MetaPhIAn2 SAM file (one file per sample)
-* Output Dataset Collection: MetaPhIAn2 biom file (one file per sample)
 
 This is an example of Galaxy history containing the results for 15 samples:  
 https://usegalaxy.org.au/u/valentine_murigneux/h/shotgun-workflow-forward-reads-15-samples  
@@ -105,9 +103,11 @@ Link to the shotgun metagenomics workflow for collection: [link](https://usegala
 
 ### 4. Once the workflow has completed, open the report
 A report will be automatically generated for each invocation of the workflow. The report is located under the menu "User" -> "Workflow Invocations".  
-Then scroll down to the name of the workflow: "Analyses of shotgun metagenomics data (for collection) with subworkflow".  
-Right Click "View Report" -> Open in a new tab   
-The main output files are located under "Workflow Outputs". You can download each dataset by clicking on the icon "Download Dataset" on the top right corner.  
+A. Click on "User"  
+B. Click on "Workflow Invocations"  
+C. Scroll down and click on the name of the workflow: "Analyses of shotgun metagenomics data (for collection) with subworkflow".  
+D. Right Click "View Report" -> Open in a new tab   
+E. The main output files are located under the "Workflow Outputs" section.  
 * Output Dataset: Krona pie plot (MetaPhIAn2 taxonomy abundance)
 * Output Dataset: Merged MetaPhIAn2 taxonomy abundance table with sample ID
 * Output Dataset: HUMAnN2 merged gene families abundance
@@ -116,7 +116,13 @@ The main output files are located under "Workflow Outputs". You can download eac
 * Output Dataset: HUMAnN2 merged and normalised gene families abundance
 * Output Dataset: HUMAnN2 regrouped, merged and normalised gene families abundance  
 
-The "Output Collections" items contain the output file for each sample separately.  
+You can download each output dataset by clicking on the icon "Download Dataset" on the top right corner.  
+The "Output Dataset Collections" items contain the output file for each sample separately ().  
+
+Figure: Workflow Report
+
+<p align="center"><img src="/images/workflow_report.png" width="99%"></p>
+
 
 ---
 

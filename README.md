@@ -55,11 +55,11 @@ When run in full, the workflow produces the following outputs:
 
 * Output Dataset: Krona pie plot (MetaPhIAn2 taxonomy abundance)
 * Output Dataset: Merged MetaPhIAn2 taxonomy abundance table with sample ID
-* Output Dataset: Merged table for HUMAnN2 gene families abundance
-* Output Dataset: Merged and normalised table for HUMAnN2 gene families abundance
-* Output Dataset: Merged, regrouped and normalised table for HUMAnN2 gene families abundance
-* Output Dataset: Merged and normalised table for HUMAnN2 Pathways abundance
-* Output Dataset: Merged table for HUMAnN2 Pathways coverage
+* Output Dataset: HUMAnN2 merged gene families abundance
+* Output Dataset: HUMAnN2 merged pathways coverage
+* Output Dataset: HUMAnN2 merged and normalised pathways abundance
+* Output Dataset: HUMAnN2 merged and normalised gene families abundance
+* Output Dataset: HUMAnN2 regrouped, merged and normalised gene families abundance  
 
 This is an example of Galaxy history containing the results for 15 samples:  
 https://usegalaxy.org.au/u/valentine_murigneux/h/shotgun-workflow-forward-reads-15-samples  

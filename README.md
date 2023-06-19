@@ -94,16 +94,21 @@ G. Clicking on collection reveals its content.
 
 ### 3. Run the shotgun workflow
 
-  Search for the shotgun metagenomics workflow under "workflow" and run it. The workflow is called "Analyses of shotgun metagenomics data (for collection) with subworkflow". The "input fastq collection" should be the collection you just created ("10 samples"). 
-<p align="center"><img src="/images/run_workflow.png"></p>
+A. Click on "Workflow" in the Galaxy horizontal menu  
+B. Search for the shotgun metagenomics workflow called "Analyses of shotgun metagenomics data (for collection) with subworkflow" 
+C. Click on "Run workflow" (white arrow on the right)  
+D. Select the "input fastq collection" to be the collection you just created ("10 samples") from the currenty history.  
+E. Click on "Run Workflow" 
+  
+Figure: Run the workflow
 
-<p align="center"><img src="/images/run_workflow_collection.png" width="100%"></p>
+<p align="center"><img src="/images/run_workflow_figure.png" width="99%"></p>
 
 Link to the shotgun metagenomics workflow for collection: [link](https://usegalaxy.org.au/u/valentine_murigneux/w/analyses-of-shotgun-metagenomics-data-for-collection-with-subworkflow)   
 
 ### 4. Once the workflow has completed, open the report
 A report will be automatically generated for each invocation of the workflow. The report is located under the menu "User" -> "Workflow Invocations".  
-A. Click on "User"  
+A. Click on "User" in the Galaxy horizontal menu   
 B. Click on "Workflow Invocations"  
 C. Scroll down and click on the name of the workflow: "Analyses of shotgun metagenomics data (for collection) with subworkflow".  
 D. Right Click "View Report" -> Open in a new tab   

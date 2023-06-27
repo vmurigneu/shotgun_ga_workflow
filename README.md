@@ -128,6 +128,24 @@ Figure: Workflow Report
 
 <p align="center"><img src="/images/workflow_report.png" width="99%"></p>
 
+### 5. Diversity stats (runnning on Galaxy Europe while the tools are not yet available within Galaxy Australia)
+
+In the shotgun analysis history, look for the file named “Metaphlan species output, Alpha/Beta diversity input file”
+(item 160 in your history). Download the file by clicking on the icon “Download”.  Optional: Rename the file on your computer. 
+
+Go to Galaxy europe: https://usegalaxy.eu/. Create an account and upload your file by clicking the icon “Upload Data” at the top of the left menu. Select “Choose local files”, select the file on your computer, modify the type to “tabular” before clicking Start then Close once the file is 100% uploaded. 
+Run the tools:
+* Calculate alpha diversity on each sample in an otu table, using a variety of alpha diversity metrics (alpha_diversity)
+  * OTU table: the file you just uploaded “Metaphlan species output, Alpha/Beta diversity input file”
+  * Select the diversity metrics to use: for instance
+    * chao1 richness estimator 
+    * Gini index
+    * Shannon entropy of counts 
+    * Simpson’s index
+      
+* Krakentools: calculates beta diversity (Bray-Curtis dissimilarity) from Kraken, Krona and Bracken files 
+  * Taxonomy file: the file you just uploaded “Metaphlan species output, Alpha/Beta diversity input file”
+  * Specify type of input file(s): single tabular data file
 
 ---
 

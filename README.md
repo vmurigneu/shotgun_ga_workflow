@@ -95,7 +95,7 @@ G. Clicking on collection reveals its content.
 ### 3. Run the shotgun workflow
 
 A. Click on "Workflow" in the Galaxy horizontal menu  
-B. Search for the shotgun metagenomics workflow called "Analyses of shotgun metagenomics data (for collection) with subworkflow" 
+B. Search for the shotgun metagenomics workflow called "Analyses of shotgun metagenomics data (for collection) with subworkflow"   
 C. Click on "Run workflow" (white arrow on the right)  
 D. Select the "input fastq collection" to be the collection you just created ("10 samples") from the currenty history.  
 E. Click on "Run Workflow" 
